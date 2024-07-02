@@ -12,7 +12,7 @@ const winningCombo = [
   
   /*---------------------------- Variables (state) ----------------------------*/
   
-  let board = Array(9).fill(null);
+  let board = ['','','','','','','','',''];
   let turn = 'X';
   let winner = null;
   let tie = false;
